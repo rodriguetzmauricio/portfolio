@@ -226,3 +226,26 @@ a:hover {
     color: #E20000;
 }
 
+
+#sobre-mi{
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#sobre-mi .card{
+    height: 182px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    height: 170px;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+
