@@ -1,0 +1,228 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: #E20000;
+    font-size: 2.5rem;
+}
+
+
+
+#contacto{
+    background-image: url("../images/fondo-contacto.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 150px;
+    padding-left: 150px;
+    
+}
+
+nav .active {
+    border: 1px solid #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100 !important;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.navbar-nav li{
+    margin-right: 50px;
+}
+
+
+.navbar-nav li a{
+    color: #282828;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.boton-descarga-cv{
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.formulario-izquierda a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+.formulario-derecha{
+    padding-top: 25px;
+}
+
+
+
+
+input, textarea {
+    border-radius: 15px !important;
+    border: 0px !important;
+    resize: none;
+}
+
+.btn-rojo{
+    background-color: #E20000 !important;
+    color: white !important;
+    font-size: 15px !important;
+    border-radius: 20px !important;
+    padding: 5px 20px !important;
+    font-weight: 100 !important;
+}
+
+.btn-rojo:hover{
+    background-color: #370A6D !important;
+    color: white !important;
+    font-size: 15px !important;
+    border-radius: 20px !important;
+    padding: 5px 20px !important;
+    font-weight: 100 !important;
+}
+
+.btn{
+    background-color: #FFFFFF;
+    color: #370A6D;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+
+.btn:hover{
+    color: #FFFFFF;
+    background-color: #370A6D;
+}
+
+footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+footer{
+    padding-top: 9rem !important;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+footer .fa-whatsapp {
+    color: white;
+    background-color: #370A6D;
+    font-size: 30px;
+    padding: 10px 19px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 65px;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+
+/* PAGINA PROYECTOS*/
+#proyectos{
+    padding: 0rem 9rem;
+    background-image: url("../images/fondo-proyectos.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#proyectos h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.color-gradiente {
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+
+#proyectos img {
+    height: 177px;
+}
+
+#proyectos .card p {
+    height: 90px;
+}
+
+#proyectos p {
+    font-size: 14px;
+}
+
+p {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.link-rojo {
+    color: #E20000;
+    font-size: 15px;
+}
+
+#proyectos footer a{
+    font-weight: 500;
+    color: #E20000;
+}
+
+#proyectos footer .fa-linkedin-in {
+    color: white;
+    background-color: #E20000;
+}
+
+#proyectos footer .fa-github {
+    color: #E20000;
+}
+
