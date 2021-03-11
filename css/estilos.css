@@ -118,9 +118,9 @@ footer .fa-linkedin-in {
 }
 
 footer{
-    padding-top: 9rem !important;
+    padding-top: 7.5rem !important;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -211,7 +211,9 @@ a:hover {
     color: #E20000;
     font-size: 15px;
 }
-
+#proyectos footer{
+   padding-top: 8rem !important;
+}
 #proyectos footer a{
     font-weight: 500;
     color: #E20000;
@@ -231,6 +233,7 @@ a:hover {
     background-image: url(../images/fondo-proyectos.png);
     background-repeat: no-repeat;
     background-size: 100%;
+   
 }
 #sobre-mi .card{
     height: 182px;
@@ -249,3 +252,45 @@ a:hover {
     color: white;
 }
 
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.seccion-padding{
+    padding: 0rem 9rem;
+}
+
+.container-tecnologias{
+    max-width: 1140px;
+}
+
+.container-idiomas{
+    max-width: 1140px;
+}
+
+.container-experiencia{
+    max-width: 1140px;
+}
+
+.container-estudios{
+    max-width: 1140px;
+}
+
+#idiomas .fas {
+    font-size: 80px;
+    color: white;
+}
+
+#sobre-mi footer .fa-github {
+   
+   color: #ff4a49;
+}
+#sobre-mi footer a{
+   
+    color: #ff4a49;
+    font-weight: 500;
+ }
