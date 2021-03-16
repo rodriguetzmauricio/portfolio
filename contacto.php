@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-     <link rel="stylesheet"
+    <title>Contacto</title>
+    <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+
 </head>
-<body id="inicio">
+
+<body id="contacto">
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container">
@@ -27,16 +30,16 @@
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link " aria-current="page" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                            <a class="nav-link" href="sobre-mi.php">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="contacto.html">Contacto</a>
+                            <a class="nav-link active" href="contacto.php">Contacto</a>
                         </li>
 
                     </ul>
@@ -55,37 +58,37 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12 mt-4 text-center div-cohete">
-                    <a href="proyectos.html"><img src="images/cohete.svg" class="cohete"></a>
+                <div class="col-12 pt-5">
+                    <h1>Contacto</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
-                    <div class="input-home">
-                        <p class="p-1">Bienvenid@ a mi sitio web sobre docencia en sistemas.</p>
-                    </div>
+                <div class="col-12 col-sm-6 pt-3 formulario-izquierda">
+                    <p>Te invito a que te contactes enviándome un mensaje o bien por <a
+                            href="https://api.whatsapp.com/send?phone=542345664512">whatsapp.</a></p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="proyectos.html" class="btn shadow">Conoce mis proyectos</a>
+                <div class="col-12 col-sm-6 formulario-derecha">
+                    <form action="" method="post" class="formulario">
+                        <div class="col-12 mb-3"><input class="form-control shadow" type="text" id="txtNombre"
+                                name="txtNombre" placeholder="Nombre"></div>
+                        <div class="col-12 mb-3"><input class="form-control shadow" type="text" id="txtCorreo"
+                                name="txtCorreo" placeholder="Correo"></div>
+                        <div class="col-12 mb-3"><textarea class="form-control shadow" name="txtMensaje" id="txtMensaje"
+                                cols="30" rows="6" placeholder="Comentario"></textarea></div>
+                        <div class="text-right">
+                            <button type="submit" class="btn">ENVIAR</button>
+                        </div>
+                    </form>
                 </div>
-            </div>
 
+            </div>
         </div>
+
     </main>
 
-
-
-
-
-
-
-
-
     <footer>
-        <div class="container">
-            <div class="row">
+        <div class="container pt-5">
+            <div class="row pt-5">
                 <div class="col-sm-3 col-12 text-sm-left text-left pb-sm-0 pb-3">
                     <a href="https://github" target="_blank" title="Github"><i class="fab fa-github"></i></a>
                     <a href="https://linkedin" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
@@ -106,7 +109,7 @@
         </div>
     </footer>
 
-
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

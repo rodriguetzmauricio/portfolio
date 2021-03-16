@@ -29,16 +29,16 @@
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                         <li class="nav-item">
-                            <a class="nav-link "  href="index.html">Inicio</a>
+                            <a class="nav-link "  href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                            <a class="nav-link" href="sobre-mi.php">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link active" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="contacto.html">Contacto</a>
+                            <a class="nav-link " href="contacto.php">Contacto</a>
                         </li>
 
                     </ul>
@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-sm-4 col-12">
                     <div class="row card m-1">
-                        <img src="/images/abmclientes.png" alt="ABM Clientes" title="ABM Clientes" class="img-fluid">
+                        <img src="images/abmclientes.png" alt="ABM Clientes" title="ABM Clientes" class="img-fluid">
                         <div class="col-12 color-gradiente py-3">
                             <h2>ABM Clientes</h2>
                         </div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col-sm-4 col-12">
                     <div class="row card m-1">
-                        <img src="/images/abmventas.png" alt="Sistema de Gestión de Ventas"
+                        <img src="images/abmventas.png" alt="Sistema de Gestión de Ventas"
                             title="Sistema de Gestión de Ventas" class="img-fluid">
                         <div class="col-12 color-gradiente py-3">
                             <h2>Sistema de gestión de ventas</h2>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-sm-4 col-12">
                     <div class="row card m-1">
-                        <img src="/images/sistema-admin.png" alt="Proyecto" title="Proyecto" class="img-fluid">
+                        <img src="images/sistema-admin.png" alt="Proyecto" title="Proyecto" class="img-fluid">
                         <div class="col-12 color-gradiente py-3">
                             <h2>Proyecto integrador</h2>
                         </div>
