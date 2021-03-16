@@ -299,3 +299,48 @@ a:hover {
     color: #ff4a49;
     font-weight: 500;
  }
+
+ /*FIN PAGINA SOBRE MI*/
+
+
+ /*PAGINA INDEX*/
+ #inicio{
+    background-image: url(../images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+ }
+
+ #inicio .input-home p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+ #inicio .cohete {
+    height: 400px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+#inicio footer{
+   padding-top: 5.5rem !important;
+    
+ }
+
+#inicio footer a{
+   
+    color: white;
+    font-weight: 500;
+ }
+
