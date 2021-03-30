@@ -17,42 +17,7 @@
 
 <body id="contacto">
     <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.php">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contacto.php">Contacto</a>
-                        </li>
-
-                    </ul>
-                    <div class="form-inline"></div>
-                    <a href="" class="btn btn-rojo">
-                        Descargar mi CV<i class="fas fa-download"></i>
-                    </a>
-                </div>
-
-
-
-            </div>
-        </nav>
+    <?php include_once("menu.php"); ?>
     </header>
 
     <main>
@@ -87,26 +52,7 @@
     </main>
 
     <footer>
-        <div class="container pt-5">
-            <div class="row pt-5">
-                <div class="col-sm-3 col-12 text-sm-left text-left pb-sm-0 pb-3">
-                    <a href="https://github" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-sm-3 col-12 text-sm-left text-left pb-sm-0 pb-3">Sponsor
-                    <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">
-                        DePC Suite
-                    </a>
-                </div>
-                <div class="col-sm-3 col-12 text-sm-left text-left pb-sm-0 pb-3">
-                    <a href="mailto:rodriguetzmauricio@gmail.com">rodriguetzmauricio@gmail.com</a>
-                </div>
-                <div class="col-sm-3 col-12 text-right">
-                    <a href="https://api.whatsapp.com/send?phone=5492345664512" title="Whatsapp"><i
-                            class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-        </div>
+       
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
