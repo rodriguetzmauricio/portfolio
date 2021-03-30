@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container <?php echo $pg == "contacto"? "footer-position" : ""; ?>">
     <div class="row">
         <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
             <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>

@@ -104,6 +104,12 @@ footer .fa-github {
     color: white;
 }
 
+.footer-position{
+    position: absolute !important;
+  bottom: 0 !important;
+  width: 100%;
+}
+
 footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;

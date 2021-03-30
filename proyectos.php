@@ -16,7 +16,9 @@
 
 <body id="proyectos">
     <header>
-       <?php include_once("menu.php"); ?>
+       <?php
+       $pg= "proyectos";
+       include_once("menu.php"); ?>
     </header>
 
     <main>

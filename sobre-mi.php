@@ -16,7 +16,9 @@
 
 <body id="sobre-mi">
     <header>
-    <?php include_once("menu.php"); ?>
+    <?php
+    $pg= "sobre-mi";
+     include_once("menu.php"); ?>
     </header>
     <main>
         <div class="container">
@@ -25,7 +27,7 @@
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
                     <p class="pb-sm-5">Apasionado por la tecnología y gestión de proyectos. Soy docente de cursos de
                         programación Full Stack y de Base de datos.</p>
-                    <a href="" class="btn btn-rojo" style="margin-left: 10px;">Enviar mensaje <i class="fas fa-download"></i></a>
+                    <a href="" class="btn btn-rojo" >Enviar mensaje</a>
 
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">

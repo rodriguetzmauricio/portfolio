@@ -14,7 +14,10 @@
 </head>
 <body id="inicio">
     <header>
-    <?php include_once("menu.php"); ?>
+    <?php
+    $pg= "inicio";
+     include_once("menu.php"); 
+     ?>
     </header>
 
     <main>
