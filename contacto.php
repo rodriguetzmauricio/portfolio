@@ -52,7 +52,7 @@
     </main>
 
     <footer>
-       
+    <?php include_once("footer.php"); ?>
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
