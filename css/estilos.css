@@ -339,6 +339,10 @@ img {
     }
 }
 
+h3{
+  font-size: 1rem !important;
+}
+
 #inicio footer{
    padding-top: 9.5rem !important;
     
