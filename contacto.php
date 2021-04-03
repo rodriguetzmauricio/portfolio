@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 pt-3 formulario-izquierda">
                     <p>Te invito a que te contactes enviándome un mensaje o bien por <a
-                            href="https://api.whatsapp.com/send?phone=542345664512">whatsapp.</a></p>
+                            href="https://api.whatsapp.com/send?phone=542345664512" target="_blank">whatsapp.</a></p>
                 </div>
                 <div class="col-12 col-sm-6 formulario-derecha">
                     <form action="" method="post" class="formulario">

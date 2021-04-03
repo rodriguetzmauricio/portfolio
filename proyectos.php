@@ -44,13 +44,13 @@
                             <p>Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP,
                                 Bootstrap y Json.</p>
                         </div>
-                        <div class="row p-3 pb-0">
+                        <div class="row p-3 ">
                             <div class="col-6">
-                                <a href="https://nelsontarche.com.ar/sistema/abmclientes/" class="btn btn-rojo"
+                                <a href="" class="btn btn-rojo"
                                     target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
-                                <a href="https://github.com/depcsuite/abmclientes" class="link-rojo"
+                                <a href="" class="link-rojo-2"
                                     target="_blank">Código fuente</a>
                             </div>
                         </div>
@@ -67,13 +67,13 @@
                             <p>Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC,
                                 Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                         </div>
-                        <div class="row p-3 pb-0">
+                        <div class="row p-3 ">
                             <div class="col-6">
-                                <a href="https://nelsontarche.com.ar/sistema/login/" class="btn btn-rojo"
+                                <a href="" class="btn btn-rojo"
                                     target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
-                                <a href="https://github.com/depcsuite/login" class="link-rojo" target="_blank">Código
+                                <a href="" class="link-rojo-2" target="_blank">Código
                                     fuente</a>
                             </div>
                         </div>
@@ -90,12 +90,12 @@
                                 Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y
                                 funcionalidades a fines.</p>
                         </div>
-                        <div class="row p-3 pb-0">
+                        <div class="row p-3">
                             <div class="col-6">
                                 <a href="#" class="btn btn-rojo" target="_blank">Ver online</a>
                             </div>
                             <div class="col-6">
-                                <a href="" class="link-rojo" target="_blank">Código fuente</a>
+                                <a href="" class="link-rojo-2" target="_blank">Código fuente</a>
                             </div>
                         </div>
                     </div>

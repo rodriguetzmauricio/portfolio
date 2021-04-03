@@ -8,13 +8,14 @@ h1{
 }
 
 
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
 
 #contacto{
     background-image: url("../images/fondo-contacto.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-right: 150px;
-    padding-left: 150px;
     
 }
 
@@ -25,14 +26,19 @@ nav .active {
     padding: 5px 20px;
     font-weight: 100 !important;
 }
-
+.pr-5, .px-5 {
+    padding-right: 3rem!important;
+}
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
-.navbar-nav li{
-    margin-right: 50px;
+.navbar {
+    position: relative;
+    display: flex;
+    padding: .5rem 1rem;
 }
+
 
 
 .navbar-nav li a{
@@ -48,8 +54,9 @@ nav .active {
 
 .formulario-izquierda a{
     color: #007bff;
-    text-decoration: none;
+    text-decoration: underline !important;
     background-color: transparent;
+    font-weight: 400;
 }
 
 
@@ -70,19 +77,13 @@ input, textarea {
 .btn-rojo{
     background-color: #E20000 !important;
     color: white !important;
-    font-size: 15px !important;
     border-radius: 20px !important;
     padding: 5px 20px !important;
-    font-weight: 100 !important;
+    font-weight: 300 !important;
 }
-
 .btn-rojo:hover{
+    color: #FFFFFF;
     background-color: #370A6D !important;
-    color: white !important;
-    font-size: 15px !important;
-    border-radius: 20px !important;
-    padding: 5px 20px !important;
-    font-weight: 100 !important;
 }
 
 .btn{
@@ -105,9 +106,7 @@ footer .fa-github {
 }
 
 .footer-position{
-    position: absolute !important;
-  bottom: 0 !important;
-  width: 100%;
+    padding-top: 10.5rem;
 }
 
 footer .fa-linkedin-in {
@@ -217,6 +216,13 @@ a:hover {
     color: #E20000;
     font-size: 15px;
 }
+.link-rojo-2{
+    color: #E20000 !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
 #proyectos footer{
    padding-top: 8rem !important;
 }
@@ -249,19 +255,8 @@ a:hover {
 #sobre-mi .card{
     height: 182px;
 }
-#idiomas .card{
-    background-color: #370A6D;
-    height: 170px;
-    border-radius: 15px;
-    padding: 40px 0;
-}
-#idiomas{
-    background-color: #eee;
-}
-#idiomas .fas{
-    font-size: 80px;
-    color: white;
-}
+
+
 
 .img-circle {
     margin: 1em auto;
@@ -271,27 +266,31 @@ a:hover {
     border-radius: 50%;
 }
 
-.seccion-padding{
-    padding: 0rem 9rem;
-}
 
-.container-tecnologias{
-    max-width: 1140px;
-}
 
-.container-idiomas{
-    max-width: 1140px;
+#idiomas .card-idioma{
+    border-radius: 15px;
+    margin: 0px;
 }
-
-.container-experiencia{
-    max-width: 1140px;
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
 }
-
-.container-estudios{
-    max-width: 1140px;
+#idiomas{
+    background-color: #eee;
 }
-
-#idiomas .fas {
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
     font-size: 80px;
     color: white;
 }
@@ -326,16 +325,23 @@ a:hover {
 }
 
  #inicio .cohete {
-    height: 400px;
+    height: 410px;
 }
+
 img {
     vertical-align: middle;
     border-style: none;
 }
 
 @media (min-width: 1200px){
+    
     .container{
-        max-width: 1140px;
+    max-width: 1293px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     }
 }
 

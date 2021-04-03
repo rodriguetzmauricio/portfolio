@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
                     <div class="input-home">
-                        <p class="p-1">Bienvenid@ a mi sitio web sobre docencia en sistemas.</p>
+                        <p class="p-1">Bienvenid@ a mi sitio web.</p>
                     </div>
                 </div>
             </div>
