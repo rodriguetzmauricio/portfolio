@@ -106,7 +106,7 @@
                     <div class="col-sm-2 col-6 text-center">
                         <div class="px-4 py-5 card mx-0">
                             <h3>Apache</h3>
-                            <img class="img-fluid d-block mx-auto" width="110" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Apache_HTTP_server_logo_%282016%29.svg/300px-Apache_HTTP_server_logo_%282016%29.svg.png">
+                            <img class="img-fluid d-block mx-auto" width="60" src="https://img.stackshare.io/service/1051/fab.os.logo.apache.200.15011_400x400.jpg">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
@@ -181,6 +181,20 @@
                         <img src="" class="img-fluid baw" title="">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
+                        <h3>Html, Css, Jquery, Php, Javascript Vainilla, SQL server, Active Directory</h3>
+                        <h4>Distrinando SRL</h4>
+                        <h5>2020 - presente</h5>
+                        <p> Desarrollo de modulos para mejorar procesos internos (Sistema utilizado SAP),Mantenimiento en general (Servidores, PCs) </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-2 px-5 py-3 my-auto d-none d-sm-block">
+                        <img src="" class="img-fluid baw" title="">
+                    </div>
+                    <div class="col-12- col-sm-10 p-3">
                         <h3>Desarrollador React + Nodejs</h3>
                         <h4>Kalyma</h4>
                         <h5>2021 - presente</h5>
@@ -201,12 +215,27 @@
             <div class="col-12">
                 <div class="row">
                     <div class="col-2 px-5 py-3 my-auto d-none d-sm-block">
-                        <img src="" class="img-fluid baw" title="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" class="img-fluid baw" title="">
                     </div>
                     <div class="col-12- col-sm-10 p-3">
                         <h3>Javascript</h3>
                         <h4>UTN BA</h4>
                         <h5>2017 - 2018</h5>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row shadow bg-white rounded">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-2 px-5 py-3 my-auto d-none d-sm-block">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQEYrHdjZXiYsA/company-logo_200_200/0?e=2159024400&v=beta&t=GWnQMxegRpWgmE_U9HXD0bpLJKGPwH9mZ9pzP6UtNkw" class="img-fluid baw" title="">
+                    </div>
+                    <div class="col-12- col-sm-10 p-3">
+                        <h3>Desarrollador Web Full Stack</h3>
+                        <h4>Depcsuite</h4>
+                        <h5>2021 - 2021</h5>
                         <p></p>
                     </div>
                 </div>
