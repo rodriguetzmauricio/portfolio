@@ -53,7 +53,7 @@
 
 
 
-    <footer>
+    <footer style="padding-top: 2.6rem !important;">
     <?php include_once("footer.php"); ?>
     </footer>
 
