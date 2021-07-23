@@ -395,6 +395,10 @@ h3{
     .descargar-cv-contenedor{
         text-align: center !important;
     }
+    .navbar{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     .nav-item{
         padding-left: 0;
         padding-right: 0 !important;
